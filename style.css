@@ -115,3 +115,21 @@ footer {
     50% { opacity: 1; }
     100% { opacity: 0.4; }
 }
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: rgba(159, 155, 255, 0.2);
+    border: 1px solid #9f9bff;
+    border-radius: 8px;
+    color: #e6e6f0;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background: #9f9bff;
+    color: #0f0f1a;
+    box-shadow: 0 0 15px #9f9bff;
+}
